@@ -62,6 +62,10 @@ span {
 	transition: 1s;
 }
 
+#hour, #min {
+	font-family: 'Cuprum', sans-serif;
+}
+
 .copyright {
 	text-align: center;
 	color: #ffb400;
