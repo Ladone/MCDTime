@@ -1,0 +1,67 @@
+body {
+	background: #3E0101;
+}
+
+.wrapper {
+	width: 300px;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.logo {
+	z-index: 2;
+	position: relative;
+}
+
+.logo img {
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+.content {
+	z-index: 1;
+	background: #c00404;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: -15px;
+	text-align: center;
+	border: 1px solid black;
+	font-family: 'PT Sans', sans-serif;
+	
+	
+}
+
+.content input {
+	width: 45%;
+	height: 50px;
+	text-align: center;
+	font-size: 35px;
+	display: inline-block;
+}
+
+.content input[type="button"]{
+	margin-top: 3px;
+	font-size: 14px;
+	cursor: pointer;
+	width: 95%;
+	background: #fbc500;
+	border: none;
+}
+
+span {
+	margin-top: 10px;
+	display: none;
+	background: #920000;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #720404;
+	transition: 1s;
+}
+
+.copyright {
+	color: #ffb400;
+}
